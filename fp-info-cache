@@ -1,4 +1,4 @@
-24747921951510551
+24753153739250183
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99536,6 +99536,27 @@ footprints
 LED_VBPW34S_VIS-M
 
 VBPW34S 
+0
+2
+2
+footprints
+PCAP_EEHZ_D_PAN
+
+EEH-ZC1V470P 
+0
+2
+2
+footprints
+PCAP_EEHZ_D_PAN-L
+
+EEH-ZC1V470P 
+0
+2
+2
+footprints
+PCAP_EEHZ_D_PAN-M
+
+EEH-ZC1V470P 
 0
 2
 2
