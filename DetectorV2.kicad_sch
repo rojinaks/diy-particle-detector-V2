@@ -3202,7 +3202,7 @@
 				)
 			)
 		)
-		(property "Value" "100Mega"
+		(property "Value" "15Mega"
 			(at 127 64.77 90)
 			(effects
 				(font
@@ -4521,7 +4521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "100k"
 			(at 229.87 125.7299 0)
 			(effects
 				(font
