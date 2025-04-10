@@ -1,4 +1,4 @@
-24753153739250183
+24754897673686361
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99581,3 +99581,10 @@ AD8091ARZ
 0
 8
 8
+footprints
+SSSS810701
+SSSS810701
+Switch
+0
+3
+3

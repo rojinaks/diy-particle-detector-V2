@@ -60,43 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|75542600|74874700|aa1af43f-5f7a-443e-b02c-3f53662dc563|c68be60f-ab47-49a2-9a74-57ff6141bd7f",
+          "courtyards_overlap|75712600|77034700|aa1af43f-5f7a-443e-b02c-3f53662dc563|c68be60f-ab47-49a2-9a74-57ff6141bd7f",
           ""
         ],
         [
-          "courtyards_overlap|75542600|79874700|0d0551fa-60c1-4759-9d8c-5775fc16d288|67b5acfa-8513-42b9-8be0-04ba8e61d61d",
+          "courtyards_overlap|75712600|82034700|0d0551fa-60c1-4759-9d8c-5775fc16d288|67b5acfa-8513-42b9-8be0-04ba8e61d61d",
           ""
         ],
         [
-          "silk_edge_clearance|130005933|74379106|fc630a92-8351-40ad-a08b-b14b959e2784|721dea56-9eb9-472b-a650-29bafc9c0296",
+          "silk_edge_clearance|130009537|78207000|fc630a92-8351-40ad-a08b-b14b959e2784|f6a23daa-bcaa-49d9-93b8-9fdbc4ded058",
           ""
         ],
         [
-          "silk_edge_clearance|130009927|78620906|fc630a92-8351-40ad-a08b-b14b959e2784|730586a5-067e-494a-bc41-8ad95452d4c2",
-          ""
-        ],
-        [
-          "silk_edge_clearance|130013109|82000000|fc630a92-8351-40ad-a08b-b14b959e2784|e39ec375-aaf0-44f2-ae42-b15d435cfd88",
-          ""
-        ],
-        [
-          "silk_edge_clearance|130019417|88700000|fc630a92-8351-40ad-a08b-b14b959e2784|3cec7a73-c108-41bb-8466-a8bdf8b637d2",
-          ""
-        ],
-        [
-          "silk_edge_clearance|130071335|83950000|fc630a92-8351-40ad-a08b-b14b959e2784|32376ffd-817b-49b5-86af-a762c2056a1f",
-          ""
-        ],
-        [
-          "silk_edge_clearance|130071335|85250000|fc630a92-8351-40ad-a08b-b14b959e2784|1d82fb21-712d-4c0a-9c97-eb40d100a139",
-          ""
-        ],
-        [
-          "silk_edge_clearance|130071335|88700000|fc630a92-8351-40ad-a08b-b14b959e2784|57a8b1b6-cbe9-45a1-b9dd-3d57d6e9d400",
-          ""
-        ],
-        [
-          "silk_over_copper|75398601|80709493|330ef154-2474-4475-8de2-b2a48aa28b46|00000000-0000-0000-0000-000000000000",
+          "silk_edge_clearance|130014488|83464800|fc630a92-8351-40ad-a08b-b14b959e2784|0cb445e1-941c-482a-af9a-d0fa3e1384fc",
           ""
         ]
       ],
@@ -505,7 +481,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DetectorV2.kicad_pro",
+    "filename": "DetectorV2.2.kicad_pro",
     "version": 3
   },
   "net_settings": {
