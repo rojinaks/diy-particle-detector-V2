@@ -1,4 +1,4 @@
-24754897673686361
+24756642071900368
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99588,3 +99588,10 @@ Switch
 0
 3
 3
+footprints
+SWITCH_102AGRLC
+
+AYZ0102AGRLC 
+0
+5
+5
