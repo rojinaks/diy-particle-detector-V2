@@ -3490,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SSSS810701"
+		(property "Footprint" "footprints:SWITCH_102AGRLC"
 			(at 88.9 67.31 0)
 			(effects
 				(font
