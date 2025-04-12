@@ -1,4 +1,4 @@
-24756642071900368
+24760131015300708
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99539,6 +99539,20 @@ VBPW34S
 0
 2
 2
+footprints
+NetzwerkTeilchenwelt
+
+
+0
+0
+0
+footprints
+NetzwerkTeilchenwelt10mm
+
+
+0
+0
+0
 footprints
 PCAP_EEHZ_D_PAN
 
