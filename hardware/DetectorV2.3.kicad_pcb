@@ -11778,14 +11778,6 @@
 		(uuid "d1835434-0929-4a6d-bca9-bf51b25292e8")
 	)
 	(via
-		(at 118 88)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 2)
-		(uuid "d4bc7577-aa2a-4318-b245-1f02c4add920")
-	)
-	(via
 		(at 100 96)
 		(size 0.6)
 		(drill 0.3)
