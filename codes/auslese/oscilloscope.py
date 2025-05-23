@@ -1,5 +1,3 @@
-# Python-Oszilloskop mit Trigger, Screenshot, CSV-Export, Mittelungspanel, FFT-Ansicht
-
 import tkinter as tk
 import numpy as np
 import sounddevice as sd
@@ -34,6 +32,10 @@ class OsziApp:
         self.showing_average = False
         self.avg_data = None
         self.avg_time = None
+
+        self.count_rate = 0
+        self.total_counts = 0
+        self.last_count_time = time.time()
 
         ctrl_frame = tk.Frame(master)
         ctrl_frame.pack(side="top", fill="x")
@@ -97,6 +99,9 @@ class OsziApp:
         tk.Button(info_frame, text="⟨⟩ Mittelwert anzeigen", command=self.plot_average).pack(pady=5)
         tk.Button(info_frame, text="📊 Mittelwert speichern", command=self.save_average_csv).pack(pady=5)
 
+        self.count_label = tk.Label(info_frame, text="Zählrate: 0 /s", font=("Courier", 12))
+        self.count_label.pack(pady=5)
+
         self.stream = sd.InputStream(callback=self.audio_callback, channels=1, samplerate=FS, blocksize=BLOCKSIZE)
         self.stream.start()
         self.update_plot()
@@ -133,6 +138,18 @@ class OsziApp:
             print(status)
         if self.running:
             self.current_data = indata[:, 0] * GAIN
+
+            now = time.time()
+            above_trigger = np.sum(self.current_data > self.trigger_level.get())
+
+            if above_trigger > 0:
+                self.total_counts += 1
+
+            if now - self.last_count_time >= 1.0:
+                self.count_rate = self.total_counts
+                self.total_counts = 0
+                self.last_count_time = now
+                self.count_label.config(text=f"Zählrate: {self.count_rate} /s")
 
     def update_plot(self):
         xlim = self.x_range.get()
