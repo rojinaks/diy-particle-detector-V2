@@ -1,0 +1,13 @@
+# Identifier:
+#	measurement
+# Comments:
+#	SMU: KEITHLEY INSTRUMENTS INC.,MODEL 2410,0996531,C27   Feb  4 2004 14:58:04/A02  /H/H
+#	LCR meter: HEWLETT-PACKARD,4284A,0,REV01.20
+#	LCR measurement function: CPRP
+#	AC voltage: 0.005 V @ 100000 Hz
+#	Current limit: 1.00E-05 A
+#	Measurements per voltage step: 5
+#	Bias voltages: (0.0, 2.2, 4.4, 6.6000000000000005, 8.8, 11.0, 13.200000000000001, 15.400000000000002, 17.6, 19.8, 22.0, 24.200000000000003, 26.400000000000002, 28.6, 30.800000000000004, 33.0) V
+# Columns:
+#	timestamp, bias, mean_current, std_current, mean_primary, std_primary, mean_secondary, std_secondary
+1749138103.8415022,0.0,-2.0273442000000003e-09,4.296665481959209e-09,5.7517860000000004e-11,3.605884080221438e-15,1324034.0,2770.9824972381184
