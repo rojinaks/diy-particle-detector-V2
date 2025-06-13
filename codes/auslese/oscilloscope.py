@@ -287,4 +287,3 @@ class OsziApp:
 root = tk.Tk()
 oszi = OsziApp(root)
 root.mainloop()
-

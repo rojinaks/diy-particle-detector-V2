@@ -16,10 +16,10 @@ print(f"Maximale Spannung: {max_v:.6f} mV")
 
 
 plt.figure(figsize=(8, 5))
-plt.plot(df["time"], df["V(output)"], marker='o', linestyle='-', markersize=2, color='purple', label=f"Min: {min_v:.2f} mV\nMax: {max_v:.2f} mV")
+plt.plot(df["time"], df["V(output)"], marker='o', linestyle='-', markersize=2, color='teal', label=f"Min: {min_v:.2f} mV\nMax: {max_v:.2f} mV")
 plt.xlabel("Time (s)")
 plt.ylabel("V(output) [mV]")  
-plt.title("Detektor Daten Plot in mV")
+#plt.title("Detektor Daten Plot in mV")
 plt.grid(True)
 plt.legend(loc="upper right")
 
