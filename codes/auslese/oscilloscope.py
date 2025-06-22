@@ -6,7 +6,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import time
 import pandas as pd
 
-FS = 44100
+FS = 48000
 BLOCKSIZE = 4096
 GAIN = 500
 
