@@ -8,7 +8,7 @@ import pandas as pd
 
 FS = 44100
 BLOCKSIZE = 4096
-GAIN = 500  # Umrechnung in mV
+GAIN = 500
 
 class OsziApp:
     def __init__(self, master):
