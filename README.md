@@ -24,11 +24,12 @@
 
 ---
 
-## 🚀 Einstieg
+## Python Oszilloskop
 
 ```bash
   git clone https://github.com/rojinaks/diy-particle-detector-V2.git
-  cd software
+  cd diy-particle-detector-V2/codes/auslese
   python oscilloscope.py
+
 
 
