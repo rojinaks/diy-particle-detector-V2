@@ -10,7 +10,7 @@
 
 - SMD-basiertes PCB-Design  
 - Python-Oszilloskop zur Signalvisualisierung 
-- Dokumentierte Tests und Messergebnisse (Raumladungszone, Signal/noise Analyse, Triggerverhalten)
+- Dokumentierte Tests und Messergebnisse (Raumladungszone, Signal/noise Analyse)
 
 ---
 
