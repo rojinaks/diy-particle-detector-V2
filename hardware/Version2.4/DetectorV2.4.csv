@@ -1,0 +1,18 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"TP3,TP5";"PinHeader_1x01_P2.54mm_Vertical";2;"TestPoint";;;
+2;"TP2";"PinHeader_1x01_P2.54mm_Vertical";1;"+";;;
+3;"J1";"CUI_SJ2-35813B-SMT-TR";1;"Conn_01x02";;;
+4;"R6,R7";"R_0805_2012Metric";2;"10k";;;
+5;"C1,C5,C2";"C_0805_2012Metric";3;"10p";;;
+6;"C9";"PCAP_EEHZ_D_PAN";1;"47mikro";;;
+7;"SW2";"SWITCH_102AGRLC";1;"SW_SPST";;;
+8;"D3,D4,D1,D2";"LED_VBPW34S_VIS";4;"BPW34-SMD";;;
+9;"C8,C3,C7,C4,C6";"C_0805_2012Metric";5;"100n";;;
+10;"TP1";"PinHeader_1x01_P2.54mm_Vertical";1;"-";;;
+11;"R5";"R_0805_2012Metric";1;"100k";;;
+12;"U1";"R_8_ADI";1;"AD8092ARZ-REEL7";;;
+13;"R8";"R_0805_2012Metric";1;"2.2k";;;
+14;"R1";"R_0805_2012Metric";1;"4.7k";;;
+15;"R3";"R_0805_2012Metric";1;"15Mega";;;
+16;"R2";"R_0805_2012Metric";1;"15k";;;
+17;"R4";"R_0805_2012Metric";1;"1k";;;
