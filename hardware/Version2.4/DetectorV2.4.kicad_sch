@@ -3373,7 +3373,7 @@
 				)
 			)
 		)
-		(property "Value" "15Mega"
+		(property "Value" "4.7Mega"
 			(at 128.27 63.5 90)
 			(effects
 				(font
@@ -4760,7 +4760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1.6k"
 			(at 231.14 124.4599 0)
 			(effects
 				(font
